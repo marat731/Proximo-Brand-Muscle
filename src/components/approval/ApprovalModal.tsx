@@ -181,8 +181,8 @@ export function ApprovalModal({ isOpen, onClose, onSubmit }: ApprovalModalProps)
             </h4>
             <ul className="text-sm text-gray-600 space-y-1">
               <li>1. Your brand manager will receive a notification</li>
-              <li>2. They'll review for brand compliance</li>
-              <li>3. You'll be notified when approved or if changes needed</li>
+              <li>2. They will review for brand compliance</li>
+              <li>3. You will be notified when approved or if changes needed</li>
             </ul>
           </div>
         </div>

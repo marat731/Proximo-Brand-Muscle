@@ -6,7 +6,7 @@ import { SKU, LibraryAsset } from '@/types';
 import {
   Search,
   Package,
-  Image,
+  Image as ImageIcon,
   Palette,
   Award,
   X,
@@ -25,7 +25,7 @@ type TabType = 'skus' | 'backgrounds' | 'badges' | 'logos';
 
 const tabs: { id: TabType; label: string; icon: React.ReactNode }[] = [
   { id: 'skus', label: 'Products', icon: <Package className="w-4 h-4" /> },
-  { id: 'backgrounds', label: 'Backgrounds', icon: <Image className="w-4 h-4" /> },
+  { id: 'backgrounds', label: 'Backgrounds', icon: <ImageIcon className="w-4 h-4" /> },
   { id: 'badges', label: 'Badges', icon: <Award className="w-4 h-4" /> },
   { id: 'logos', label: 'Logos', icon: <Palette className="w-4 h-4" /> },
 ];

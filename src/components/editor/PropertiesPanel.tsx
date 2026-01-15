@@ -5,7 +5,7 @@ import { useStore } from '@/store';
 import { TemplateElement, SKU } from '@/types';
 import {
   Type,
-  Image,
+  Image as ImageIcon,
   DollarSign,
   Palette,
   AlignLeft,
@@ -38,7 +38,7 @@ export function PropertiesPanel() {
     if (selectedElement?.content.text) {
       setLocalText(selectedElement.content.text);
     }
-  }, [selectedElement?.id]);
+  }, [selectedElement?.id, selectedElement?.content.text]);
 
   if (!selectedElement) {
     return (
@@ -184,7 +184,7 @@ export function PropertiesPanel() {
           selectedElement.editableProperties.includes('image') && (
             <div>
               <label className="label flex items-center gap-2">
-                <Image className="w-4 h-4" />
+                <ImageIcon className="w-4 h-4" />
                 Select Product
               </label>
               <div className="relative">

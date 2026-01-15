@@ -149,7 +149,7 @@ export function TemplateGallery({ brandFilter, formatFilter }: TemplateGalleryPr
           </div>
           <h3 className="text-lg font-medium text-gray-900 mb-2">No templates found</h3>
           <p className="text-gray-500 max-w-md mx-auto">
-            Try adjusting your filters or search query to find the templates you're looking for.
+            Try adjusting your filters or search query to find the templates you are looking for.
           </p>
         </div>
       ) : (
